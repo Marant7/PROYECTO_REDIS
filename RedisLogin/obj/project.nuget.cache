@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "6c/pLdrv1MM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mario\\Desktop\\Nueva carpeta (7)\\RedisLogin\\RedisLogin\\RedisLogin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mario\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\stackexchange.redis\\2.8.22\\stackexchange.redis.2.8.22.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

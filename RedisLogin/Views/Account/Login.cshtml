@@ -1,0 +1,32 @@
+@model RedisLogin.Models.LoginViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+    <h2>Iniciar Sesión</h2>
+    @using (Html.BeginForm("Login", "Account", FormMethod.Post))
+    {
+        @Html.ValidationSummary(true)
+        
+        <div>
+            @Html.LabelFor(m => m.Username, "Usuario:")
+            @Html.TextBoxFor(m => m.Username)
+            @Html.ValidationMessageFor(m => m.Username)
+        </div>
+        
+        <div>
+            @Html.LabelFor(m => m.Password, "Contraseña:")
+            @Html.PasswordFor(m => m.Password)
+            @Html.ValidationMessageFor(m => m.Password)
+        </div>
+        
+        <input type="submit" value="Iniciar sesión" />
+    }
+    <div class="text-center mt-3">
+    @Html.ActionLink("¿No tienes cuenta? Regístrate", "Register", "Account")
+</div>
+</body>
+</html>
