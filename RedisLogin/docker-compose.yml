@@ -3,6 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    image: ${DOCKER_USERNAME}/redislogin-webapp:latest
     ports:
       - "5461:80"
     depends_on:
